@@ -25,4 +25,10 @@ class ServicoFactoryTest {
             assertEquals("Serviço inválido", e.getMessage());
         }
     }
+
+    @Test
+    void deveRetornarServicoAluguel() {
+        Hotelaria servico = ServicoFactory.obterServico("Aluguel");
+        assertEquals("Aluguel efetivado" ,servico.executar());
+    }
 }
