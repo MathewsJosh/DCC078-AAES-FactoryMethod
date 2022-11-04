@@ -1,6 +1,6 @@
 package padroescriacao.factorymethod;
 
-public class ServicoReserva implements Hotelaria  {
+public class ServicoReserva  {
 
     public String executar() {
         return "Reserva efetivada";
